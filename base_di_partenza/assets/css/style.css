@@ -354,8 +354,15 @@ aside ul li a {
 /* SCROLL -------------------------------------------------------------------------------------------- */
 
 .scrolled {
-  background-color: white;
+  animation: scrollAnimation 0.7s ease 0s forwards;
 }
 
 @keyframes scrollAnimation {
+  0% {
+    background-color: #ffc017;
+  }
+
+  100% {
+    background-color: white;
+  }
 }
