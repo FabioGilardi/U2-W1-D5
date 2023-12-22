@@ -1,0 +1,354 @@
+/* IMPORT FONTS */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,700;1,8..144,400;1,8..144,700&family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+/* NAV BAR ------------------------------------------------------------------------------------------------------------------------------ */
+header {
+  /* font-family: "Roboto Serif", serif; */
+  font-family: "Spectral", serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+  padding: 1em 0;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+header img {
+  margin-right: 22em;
+}
+
+nav {
+  width: 30%;
+}
+
+nav ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul #circle {
+  background-color: #191919;
+  border-radius: 50px;
+  padding: 1em;
+}
+
+nav ul #circle a {
+  color: white;
+}
+
+/* TITLE ARTICLE ----------------------------------------------------------------------------------------------------------------------- */
+
+main {
+  width: 100%;
+}
+
+#title-article {
+  font-family: "Spectral", serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+}
+
+#title-article div {
+  height: 100%;
+  margin-left: 8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+h1 {
+  letter-spacing: -0.5rem;
+  font-size: 7rem;
+  font-weight: 500;
+  margin-bottom: 0.15em;
+}
+
+#title-article p {
+  font-family: "Roboto Serif", serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#title-article button {
+  width: 40%;
+  font-family: "Spectral", serif;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+  background-color: #191919;
+  padding: 0 1em;
+  border: 1px solid #ffc017;
+  border-radius: 50px;
+  margin-top: 2em;
+}
+
+/* TRENDING SECTION ---------------------------------------------------------------------------------------------------------------------------- */
+
+#trending {
+  height: 300px;
+  padding: 1.5em 12em;
+  border-bottom: 1px solid black;
+}
+
+#trending article {
+  height: 100%;
+  font-family: "Spectral", serif;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  margin-top: 1em;
+}
+
+#trending article .trend-post {
+  width: 30%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+#trending h2 {
+  display: inline-block;
+  font-weight: 600;
+}
+
+#trending .title,
+#trending .username {
+  display: flex;
+  align-items: center;
+}
+
+#trending .title {
+  position: absolute;
+  left: 170px;
+}
+
+#trending .title img {
+  margin-right: 1em;
+}
+
+.trend-post .username img {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin-right: 0.5em;
+}
+
+.username p {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.trend-post #date {
+  font-size: 0.8rem;
+  opacity: 0.5;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.trend-post #news-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#star {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+#article-number {
+  font-family: "Roboto Serif", serif;
+  font-size: 2rem;
+  float: left;
+  font-weight: bold;
+  opacity: 0.1;
+  position: absolute;
+  top: 4px;
+  left: -50px;
+}
+
+/* POSTS SECTION -------------------------------------------------------------------------------------------------------------------------------- */
+
+#last-section {
+  width: 100%;
+  font-family: "Spectral", serif;
+  display: flex;
+  justify-content: space-around;
+}
+
+#last-section article {
+  /* flex-grow: 0; */
+  width: 900px;
+  margin-top: 2em;
+}
+
+aside {
+  /* flex-shrink: 3; */
+  width: 400px;
+}
+
+.post-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  width: 50%;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.bar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar p {
+  display: flex;
+  align-items: center;
+}
+
+.bar p a {
+  margin-left: 0.5em;
+}
+
+.bar p img {
+  margin-left: 1em;
+}
+
+.img-user {
+  display: flex;
+  align-items: center;
+}
+
+.img-user img {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin-right: 0.5em;
+}
+
+.img-user p {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.img-container img {
+  width: 200px;
+  height: 140px;
+  margin-left: 1em;
+}
+
+.text-area {
+  padding-right: 2em;
+}
+
+.text-area h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.text-area p {
+  color: #706f6e;
+}
+
+.bar p {
+  font-size: 0.8rem;
+  color: #706f6e;
+}
+
+.bar p a {
+  text-decoration: none;
+  color: #706f6e;
+  background-color: #f2f3f3;
+  border-radius: 30px;
+  padding: 0.5em;
+}
+
+/* ASIDE -------------------------------------------------------------------------------------------------------------------------------- */
+
+aside {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  font-family: "Spectral", serif;
+  padding-right: 10em;
+  height: 100%;
+  position: sticky;
+  top: 100px;
+  z-index: 2;
+}
+
+aside #link-list ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 150px;
+}
+
+aside #link-list ul li a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #706f6e;
+  border: 1px solid #f2f3f3;
+  border-radius: 5px;
+  padding: 0.5em 2em;
+  margin: 1em 0;
+}
+
+aside h3 {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+#link-list {
+  margin-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #cccccc;
+}
+
+aside ul {
+  margin-top: 1em;
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+}
+
+aside ul li a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #706f6e;
+  margin: 0.7em;
+}
