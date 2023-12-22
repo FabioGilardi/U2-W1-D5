@@ -199,13 +199,11 @@ h1 {
 }
 
 #last-section article {
-  /* flex-grow: 0; */
   width: 900px;
   margin-top: 2em;
 }
 
 aside {
-  /* flex-shrink: 3; */
   width: 400px;
 }
 
@@ -359,6 +357,5 @@ aside ul li a {
   background-color: white;
 }
 
-.aScrolled {
-  background-color: #1a8917;
+@keyframes scrollAnimation {
 }
