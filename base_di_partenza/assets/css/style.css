@@ -352,3 +352,13 @@ aside ul li a {
   color: #706f6e;
   margin: 0.7em;
 }
+
+/* SCROLL -------------------------------------------------------------------------------------------- */
+
+.scrolled {
+  background-color: white;
+}
+
+.aScrolled {
+  background-color: #1a8917;
+}
